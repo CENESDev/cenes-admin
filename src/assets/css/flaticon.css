@@ -1,0 +1,57 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 09/01/2019 19:16
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 60px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-loupe:before { content: "\f100";}
+.flaticon-bell:before { content: "\f101"; }
+.flaticon-birthday-invitation:before { content: "\f102"; }
+.flaticon-calendar:before { content: "\f103"; }
+.flaticon-journal:before { content: "\f104"; }
+.flaticon-network:before { content: "\f105"; }
+.flaticon-spend-time:before { content: "\f106"; }
+.flaticon-watch:before { content: "\f107"; }
+.flaticon-time:before { content: "\f108"; }
+.flaticon-time-1:before { content: "\f109"; }
+.flaticon-sms:before { content: "\f10a"; }
+.flaticon-alarm:before { content: "\f10b"; }
+.flaticon-invitation:before { content: "\f10c"; }
+.flaticon-birthday-card:before { content: "\f10d"; }
+.flaticon-invitation-1:before { content: "\f10e"; }
+.flaticon-appointment:before { content: "\f10f"; }
+.flaticon-calendar-1:before { content: "\f110"; }
+.flaticon-wedding-invitation:before { content: "\f111"; }
+.flaticon-invitation-2:before { content: "\f112"; }
+
+.glyph-icon{
+margin-top: 0px;
+}
+.glyph{
+  margin-left: 30px;
+}

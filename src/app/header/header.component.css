@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('/assets/fonts/AvenirLTStd-Roman.eot');
+    src: url('/assets/fonts/AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/AvenirLTStd-Roman.woff2') format('woff2'),
+        url('/assets/fonts/AvenirLTStd-Roman.woff') format('woff'),
+        url('/assets/fonts/AvenirLTStd-Roman.ttf') format('truetype'),
+        url('/assets/fonts/AvenirLTStd-Roman.svg#AvenirLTStd-Roman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirLTStd Book';
+    src: url('/assets/fonts/AvenirLTStd-Book.eot');
+    src: url('/assets/fonts/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/AvenirLTStd-Book.woff2') format('woff2'),
+        url('/assets/fonts/AvenirLTStd-Book.woff') format('woff'),
+        url('/assets/fonts/AvenirLTStd-Book.ttf') format('truetype'),
+        url('/assets/fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirLTStd Black';
+    src: url('/assets/fonts/AvenirLTStd-Black.eot');
+    src: url('/assets/fonts/AvenirLTStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/AvenirLTStd-Black.woff2') format('woff2'),
+        url('/assets/fonts/AvenirLTStd-Black.woff') format('woff'),
+        url('/assets/fonts/AvenirLTStd-Black.ttf') format('truetype'),
+        url('/assets/fonts/AvenirLTStd-Black.svg#AvenirLTStd-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+header .navbar-nav{ width:100%; /*position:relative; */ }
+header .navbar{ min-height:73px; margin-bottom:0; }
+header .navbar-nav li{ float:none; display:inline-block; vertical-align:middle;font-family: 'AvenirLTStd Book'; }
+header .navbar-nav li a{ font-size:14px; color:#000; line-height: 72px;padding:0 24px; background:none !important; text-decoration: none;}
+header .navbar-nav li a img{ opacity:0;} 
+header .navbar-nav li a:hover{ color:#EE9B26; }
+header .navbar-brand{ position:absolute; left:40px; right:-49px; margin:0 auto !important; width:58px; padding:5px; z-index:2; }
+header .navbar-nav li:last-child{ float:right; }
+header .navbar-nav li:last-child .btn{ float:right; background:#3B4C8B !important; line-height:25px; border-radius:25px; color:#fff; font-size:12px; width:100px; text-align:center; padding:2px 0 0 0;  box-shadow:0px 0px 10px #ddd; margin-top:20px; position:absolute; right:0; font-family: 'AvenirLTStd Book';font-weight: 500;}
+
+
+.aap-zone{ position:fixed;z-index:999; background:#e5e5e5 !important; color:#3B4C8B;  width:100%; left:0; top:0;  overflow: hidden;padding:5px; }
+.log-app{ position:relative; padding-left:46px; float:left; z-index:9; }
+.log-app img{ position:absolute; left:0; top:0; width:30px; }
+.log-app h6{ margin-bottom:0; text-align:left; }
+.log-app p{ margin-bottom:0; font-size:12px; }
+.aap-zone a.open-link{ float: right;
+   
+    color: #fff;
+    background: #3B4C8B;
+    padding: 0 15px;
+    font-size: 12px;
+    border-radius: 25px;
+    line-height: 27px;
+    margin-top: 5px;}
+	
+	.navbar-expand-lg .navbar-nav .dropdown-menu .store-buttons {
+    position: absolute;
+    min-width: 240px;
+    left: -100px;
+    padding: 0;
+    top: 31px;
+}
+header .navbar-nav li .dropdown-menu{ padding:0; width:250px; left:-100px; top:30px; }
+header .navbar-nav li .dropdown-menu .dropdown-item img{ opacity:1; width:100%; }
+header .navbar-nav li .dropdown-menu  .dropdown-item{ float:left; width:50%; padding:5px; clear:none; } 
+
+header .navbar-nav li .dropdown-toggle::after{ display:none; }
+
+
+@media(max-width:1024px){
+	
+	/*header{ top:47px; }*/
+	.aap-zone{ display:block; }
+}
+
+@media(max-width:991px){
+
+header .navbar-nav  li a, header .navbar-nav  li:last-child .btn{ color:#fff; background:none !important; box-shadow:none; line-height:35px; width:100%; text-align:left !important; padding:0; margin-top:0; }
+.navbar-nav  li:last-child { float:none; }
+header .navbar-nav  li:last-child .btn{ float:none; position:static; }
+.navbar-nav  li{ display:block; width:100%; text-align:left; padding:5px 15px; }
+header .navbar-nav { margin:0; }
+.navbar-toggler{ margin-top:0px; border:0 none; outline:0; position:absolute; top:0; right:10px; }
+
+header .navbar-collapse.in{ display:block; }
+header .navbar-collapse{ left:0; }
+header .navbar-nav li a{ color:#3B4C8B !important; }
+header .navbar-nav li a:hover{ opacity:0.8; }
+header .navbar-collapse {
+    background: #efefef;
+   padding:0;
+   margin:0;
+    position: absolute;
+    z-index: 2;
+    top: 72px;
+	width:100%;
+
+}
+
+header .navbar-brand{ right:0; margin:0 !important;}
+
+ /* .navbar-toggler{ margin-top:5px; } */
+ header  .navbar-collapse{ top:46px !important; }
+header .navbar{ padding-left:1.5rem !important; }
+
+}
+
+@media(max-width:767px){
+
+header .navbar-brand{ /*position:relative;*/ margin:0; left: 10px; }
+.navbar-toggler .icon-bar{ background:#3B4C8B; }
+
+
+header .navbar-collapse {
+    background: #efefef;
+   padding:0;
+   margin:0;
+    position: absolute;
+    z-index: 2;
+    top: 72px;
+	width:100%;
+
+}
+header .navbar-nav  li a, header .navbar-nav  li:last-child .btn{ color:#3B4C8B; background:none !important; box-shadow:none; line-height:35px; width:100%; text-align:left !important; padding:0; margin-top:0; }
+.navbar-nav  li:last-child { float:none; }
+header .navbar-nav  li:last-child .btn{ float:none; position:static; }
+.navbar-nav  li{ display:block; width:100%; text-align:left; padding:5px 15px; }
+header .navbar-nav { margin:0; }
+.navbar-toggler{ margin-top:0px; border:0 none; outline:0; top:auto; }
+
+header .navbar-collapse.in{ display:block; }
+header .navbar-collapse{ left:0; }
+header .navbar-nav li a{ color:#3B4C8B !important; }
+header .navbar-nav li a:hover{ opacity:0.8; }
+
+
+
+header .navbar-nav li .dropdown-menu{ border:0; background:none;}
+}
+/** header css **/
+header .navbar-brand { width: 125px; padding:0; right:auto; /*position:relative;*/ }
+header .navbar{ min-height: 37px; padding: 4px 3rem; }
+header .navbar-nav{ padding-right:/* 135px */0px; justify-content: right !important; -ms-flex-pack: right !important; }
+header .navbar-nav li a{ line-height: 30px; }
+header .navbar-nav li:last-child .btn{ margin-top:2px; margin-right:40px;  }
+header{ text-align:right !important; position: fixed; z-index: 999; width:100% }
+header ul li.d-none{ display:none !important; }
+header .navbar-nav { text-align:right;width:auto; }
+/** header css **/

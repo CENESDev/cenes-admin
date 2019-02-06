@@ -1,0 +1,41 @@
+<p align="center" style="top: 25px;position: relative;height: 65px;">
+  <input [(ngModel)]="searchText" placeholder="Search.." class="advancedSearchTextbox" (keyup)="filterUser(searchText)">
+</p>
+<p></p>
+<table class="table table-striped" [mfData]="userListArray" #mf="mfDataTable" [mfRowsOnPage]="rowsOnPage">
+  <thead>
+  <tr>
+      <th style="width: 10%">
+          <mfDefaultSorter by="userId">ID</mfDefaultSorter>
+      </th>
+      <th style="width: 20%">
+          <mfDefaultSorter by="name">Name</mfDefaultSorter>
+      </th>
+      <th style="width: 20%">
+          <mfDefaultSorter by="gender">Gender</mfDefaultSorter>
+      </th>
+      <th style="width: 50%">
+          <mfDefaultSorter by="email">Email</mfDefaultSorter>
+      </th>
+    <th style="width: 50%">
+      <mfDefaultSorter by="phone">Phone</mfDefaultSorter>
+    </th> 
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let item of mf.data;let i=index;">
+      <td>{{item.userId}}</td>    
+      <td>{{item.name}}</td>
+      <td>{{item.gender}}</td>
+      <td>{{item.email}}</td>
+      <td>{{item.phone}}</td>
+  </tr>
+  </tbody>
+  <tfoot>
+  <tr>
+      <td colspan="4">
+          <mfBootstrapPaginator [rowsOnPageSet]="[15,20,25]"></mfBootstrapPaginator>
+      </td>
+  </tr>
+  </tfoot>
+</table>

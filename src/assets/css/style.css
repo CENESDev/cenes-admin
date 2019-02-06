@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+
+
+*{ margin:0; padding:0; } 
+
+body{ font-family: 'Lato', sans-serif; }
+
+.invitation-body .btn:hover{ opacity:0.8; }
+
+.invitation-body header .nav{ width:100%; position:relative; }
+.invitation-body header .navbar{ min-height:73px; margin-bottom:0; }
+.invitation-body header .nav li{ float:none; display:inline-block; vertical-align:middle; }
+.invitation-body header .nav li a{ font-size:14px; color:#000; line-height: 72px;padding-top: 0;padding-bottom: 0; background:none !important; }
+.invitation-body header .nav li a img{ opacity:0;} 
+.invitation-body header .nav li a:hover{ color:#f89f1e; }
+.invitation-body header .navbar-brand{ position:absolute; left:0; right:-49px; margin:0 auto !important; width:58px; padding:5px; z-index:2; }
+.invitation-body header .nav li:last-child{ float:right; }
+.invitation-body header .nav li:last-child .btn{ float:right; background:#eb5b49 !important; line-height:30px; border-radius:25px; color:#fff; font-size:14px; width:134px; text-align:center; padding:0;  box-shadow:0px 0px 10px #ddd; margin-top:20px; position:absolute; right:0; }
+
+.invitation-body .banner-section img{ padding:0; }
+
+.invitation-body .teacher-section{ text-align: center;margin-top: -110px;float: left;width: 100%;position: relative; }
+.invitation-body .teacher-section .teacher-img img{ max-width:331px; width:100%; display:inline-block; margin-top:-50px; }
+.invitation-body .teacher-section .teacher-name{ color:#818181; font-weight:700; font-size:24px; margin-top:30px; margin-bottom:50px; }
+.invitation-body .teacher-section .designtion{ color:#203056; font-weight:700; font-size:48px; }
+.invitation-body .teacher-section p{ color:#818182; font-weight:400; font-size:20px;   display:block; max-width:1100px; margin:30px auto; }
+
+
+.invitation-body .invited-section{ padding-top:60px; width:100%; float:left; position:relative; }
+.invitation-body .invited-section h1{ color:#203056; font-size:36px; }
+.invitation-body .invited-section p{ color:#818182; font-weight:400; font-size:24px; margin:20px 0 50px; }
+
+.invitation-body .invited-section .btn{ background:#9b9b9b; color:#fff; margin:0 15px; font-size:24px; border-radius:10px !important; line-height:35px; text-align:center; min-width:300px; box-shadow:0px 0px 10px #999; text-transform:uppercase;  }
+.invitation-body .invited-section .btn+.btn{ margin-right:0; }
+.invitation-body .invited-section .btn-theme{ background:#f89f1e; }
+.invitation-body .invited-section .btn-group+ .btn-group .btn-theme{ background:#203056; }
+
+
+.invitation-body .timing-box{ margin-top:120px; }
+.invitation-body .inner-box{ background:#eb5b49; border-radius:5px; width:100%; color:#fff; text-align:center; padding:15px; min-height:202px; }
+.invitation-body .inner-box span{ display:block; line-height:56px; }
+.invitation-body .inner-box span span{ display:inline; }
+
+.invitation-body .inner-box .font64{ font-size:64px; font-weight:900; }
+.invitation-body .inner-box .font48{ font-size:48px; font-weight:900;  }
+.invitation-body .inner-box .font36{ font-size:36px; }
+.invitation-body .inner-box .font30{ font-size:30px; }
+.invitation-body .inner-box .font24{ font-size:24px; line-height:30px; }
+
+.invitation-body .responsive-map{ width:100%; height:0; overflow:hidden; position:relative; padding-bottom:40%; margin-top:70px; }
+.invitation-body .inner-map-cls{ width:100%; height:100%; position:absolute; left:0; top:0; }
+
+
+.invitation-body .new-text{ width:100%; float:left; padding-top:80px; position:relative; }
+.invitation-body .new-text h3{ padding-bottom:50px; font-size:36px; }
+.invitation-body .craousal-text h2{ color:#635E5E; font-size:50px; text-transform:uppercase; }
+.invitation-body .craousal-text h4{ color:#635E5E; font-size:30px; margin:30px 0; }
+.invitation-body .craousal-text p{ color:#635E5E; font-size:23px;  }
+
+.invitation-body .owl-nav .owl-prev span{ font-size:50px; font-family:georgia;  height:20px; line-height:20px; }
+.invitation-body .owl-nav .owl-next span{ font-size:50px; font-family:georgia;  height:20px; line-height:20px; }
+.invitation-body .owl-nav .owl-prev, .owl-nav .owl-next{ position:absolute; left:-40px; top:50%; margin-top:-15px; }
+.invitation-body .owl-nav .owl-next{ left:auto; right:-40px; }
+
+.invitation-body .btn-orange{ background:#eb5b49;  font-size:18px; color:#fff !important; margin:50px 15px;  border-radius:10px !important; line-height:35px; text-align:center; min-width:358px; box-shadow:0px 0px 10px #ddd; text-transform:uppercase; font-weight:700; }
+
+.invitation-body .application-section{ margin-top:0px; width:100%; float:left;  position:relative; }
+.invitation-body .application-section h2{ font-size:36px; }
+.invitation-body .application-section p{ color:#635E5E; font-size:23px;  margin:50px 0;   }
+
+
+.invitation-body footer{  background:#eb5b49; width:100%; float:left; text-align:left; position:relative; padding:20px 0; margin-top:70px; }
+.invitation-body footer .menu-2{ width:100%; text-align:right; padding-top:20px; padding-right:150px; }
+.invitation-body footer .menu-2 li{ list-style:none; display:inline-block; padding:0 15px; }
+.invitation-body footer a{font-size:14px; color:#fff; } 
+.invitation-body footer a:hover{ color:#fff; opacity:0.8; }
+.invitation-body footer .menu li{ list-style:none; float:left;  width:50%;   }
+.invitation-body footer .social-ul{ float:right; position:absolute; right:15px; top:15px; }
+.invitation-body footer .social-ul li{ list-style:none; float:left;  padding:2px 10px; font-size:20px; }
+.invitation-body footer .social-ul li .fa{ font-size:20px; }
+
+
+.invitation-body .cursor{ cursor:pointer; }
+ 
+.invitation-body .inner-box[aria-expanded="false"] .arrow-down:after{ content: "\f107";margin-top: 25px;vertical-align: bottom;display: block;}
+.invitation-body .inner-box[aria-expanded="true"] .arrow-down:after{ content: "\f106";margin-top: 25px;vertical-align: bottom;display: block;}
+.invitation-body .last{ position:relative; z-index:0; }
+.invitation-body .last .inner-box.cursor:after{ position:absolute; right:4px; top:50%; margin-top:-10px; background:#000; width:25px; height:25px; content:""; border-radius:50%; z-index:-1;  }
+
+.invitation-body .tp-img{ position:absolute; right:0; top:0; z-index:-1; }
+.invitation-body .bt-img{ position:absolute; left:0; bottom:0; z-index:-1; }
+
+.invitation-body .tp-img1{ position:absolute; right:10%; z-index:-1; }
+
+
+.invitation-body .tp-imgg1{ position:absolute; left:0; z-index:-1; top: -40px; }
+.invitation-body .tp-imgg2{ position:absolute; right:0; bottom:20%; z-index:-1;}
+
+.invitation-body .teacher-section .tp-img1{ right:10%; bottom:50%; z-index:-1; }
+
+.invitation-body .container{ max-width:1100px; }
+.invitation-body .invited-section .container{ max-width:1000px; }
+
+.invitation-body .banner-section{ max-height: 610px; display: block;overflow: hidden; }
+
+.invitation-body .figure-img {
+
+    max-width: 331px;
+    max-height: 331px;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+   
+    padding-bottom: 331px;
+    width: 100%;
+    height: 0;
+
+}
+
+
+.invitation-body .figure-img img{ width: 100%;
+
+border-radius: 50%;
+ 
+
+position: absolute;
+
+left: 0;
+
+top: 0;
+
+height: 100%; }
+
+
+.invitation-body .item h4{ display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+   
+    padding-bottom: 198px;
+    width: 100%;
+    height: 0;  }
+.invitation-body .item h4 img{ width: 100%;
+
+border-radius: 50%;
+ 
+
+position: absolute;
+
+left: 0;
+
+top: 0;
+
+height: 100%; }
+.invitation-body .inner-box .font24{ font-size:23px; }
+
+.invitation-body .accept-decline{position: fixed;
+    top: 0;
+    z-index: 999;
+    left: 30%;
+    display: inline;
+    clear: both;
+    background: #fff;
+    border: 10px solid #fff;
+}
+
+.invitation-body .fixed-header {
+    position: fixed !important;
+    background:rgba(255, 255, 255, 0.95);
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-bottom: 20px;
+    z-index: 9;
+    box-shadow: 0 0 13px #ddd;
+}
+
+.invitation-body .fixed-header p { margin-bottom:15px; }
+
+
+
+
+@media(max-width:1400px){
+	.invitation-body .inner-box{ min-height:182px; }
+	.invitation-body .inner-box[aria-expanded="true"] .arrow-down:after,.inner-box[aria-expanded="false"] .arrow-down:after{ margin-top:7px; }
+	
+	.invitation-body .inner-box .font64{ font-size:54px; }
+.invitation-body .inner-box .font48{ font-size:38px; }
+.invitation-body .inner-box .font36{ font-size:30px; }
+.invitation-body .inner-box .font30{ font-size:24px; }
+.invitation-body .inner-box .font24{ font-size:20px; line-height:25px; }
+
+	
+}
+
+@media(max-width:1199px){
+	.invitation-body .inner-box .font24{ font-size:22px; }
+	.invitation-body .item h4{ padding-bottom:142px; }
+	
+}
+@media(max-width:991px){
+	.invitation-body .teacher-section .designtion{ font-size:35px; }
+	.invitation-body .teacher-section p{ font-size:18px; }
+	.invitation-body .teacher-section{ padding-left:30px; padding-right:30px; }
+	 
+	.invitation-body .inner-box{ margin-bottom:20px; }
+	.invitation-body .teacher-section .figure-img img{ max-width:200px; }
+	.invitation-body .teacher-section .designtion{ font-size:30px; }
+	.invitation-body .invited-section .btn{ max-width:250px; min-width:250px; }
+	
+	.invitation-body .owl-nav .owl-next{ right:-20px; }
+	.invitation-body .owl-nav .owl-prev{ left:-20px; }
+	 
+	.invitation-body .teacher-section .figure-img{ width:200px; padding-bottom:200px; }
+	.invitation-body .item h4{ width:200px; padding-bottom:200px; }
+	
+}
+
+
+@media(max-width:767px){
+	.invitation-body .inner-box .font64{ font-size:45px; }
+.invitation-body .inner-box .font48, .craousal-text h2{ font-size:35px; }
+.invitation-body .inner-box .font36{ font-size:25px; }
+.invitation-body .inner-box .font30, .craousal-text h4{ font-size:22px; }
+.invitation-body .inner-box .font24, .craousal-text p{ font-size:18px; line-height:25px; }
+.invitation-body .timing-box{ margin:50px 0 0 0; }
+.invitation-body footer .menu-2{ padding-right:0; text-align:left; }
+.invitation-body footer .menu-2 li, footer .menu li{ width:100%; padding:5px; }
+.invitation-body footer .social-ul{ position:static; text-align:left; float:left; }
+.invitation-body .responsive-map{ margin-top:0; }
+.invitation-body .new-text{ padding:30px 0; }
+.invitation-body .teacher-section .teacher-name, .teacher-section p{ margin:15px 0; }
+.invitation-body .teacher-section p{ font-size:18px; }
+.invitation-body .teacher-section .figure-img img { max-width: 120px;}
+.invitation-body .teacher-section{ margin-top:20px; }
+.invitation-body header .navbar-brand{ position:relative; margin:0; left: 13px; }
+.invitation-body .navbar-toggle .icon-bar{ background:#eb5b49; }
+
+
+.invitation-body header .navbar-collapse {
+    background: #eb5b49;
+   padding:0;
+   margin:0;
+    position: absolute;
+    z-index: 2;
+    top: 72px;
+	width:100%;
+
+}
+.invitation-body .new-text h3{ padding:0; margin:0; }
+.invitation-body header .nav li a, .invitation-body header .nav li:last-child .btn{ color:#fff; background:none !important; box-shadow:none; line-height:35px; width:100%; text-align:left !important; padding:0; margin-top:0; }
+.invitation-body .nav li:last-child { float:none; }
+.invitation-body header .nav li:last-child .btn{ float:none; position:static; }
+.invitation-body .nav li{ display:block; width:100%; text-align:left; padding:5px 15px; }
+.invitation-body header .nav{ margin:0; }
+.invitation-body .navbar-toggle{ margin-top:20px; }
+
+.invitation-body .tp-img, .invitation-body .bt-img, .invitation-body .tp-img1, .invitation-body .tp-imgg1, .invitation-body .tp-imgg2{ max-width:50px !important; }
+.invitation-body .teacher-section .figure-img{ width:120px; padding-bottom:120px; }
+}
+
+@media(max-width:600px){
+	
+	.invitation-body .item h4{ width:150px; padding-bottom:150px; }
+}
+@media(max-width:480px){
+.invitation-body .invited-section .btn{ min-width:150px; max-width:150px; font-size:20px; }	
+.invitation-body .owl-carousel .item{ padding:15px 50px 0; }
+.invitation-body .owl-nav .owl-next{ right:0; }
+.invitation-body .owl-nav .owl-prev{ left:0; }
+
+.invitation-body .craousal-text .btn-orange{ margin: 10px 0; min-width: 254px; font-size: 15px; }
+.invitation-body .application-section h2{ font-size:25px; }
+.invitation-body .application-section p{ font-size:20px; margin:20px 0; }
+.invitation-body .application-section img{ max-width:150px; }
+.invitation-body .application-section .btn-group a{ width:100%; }
+}
+
+@media(max-width:360px){
+
+.invitation-body .invited-section .btn{ min-width:100%; margin-bottom:10px; }
+
+
+
+}
+
