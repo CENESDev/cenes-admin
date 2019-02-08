@@ -37,7 +37,7 @@
 }
 
 
-
+header{background: #efefef;}
 header .navbar-nav{ width:100%; /*position:relative; */ }
 header .navbar{ min-height:73px; margin-bottom:0; }
 header .navbar-nav li{ float:none; display:inline-block; vertical-align:middle;font-family: 'AvenirLTStd Book'; }
